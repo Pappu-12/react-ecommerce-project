@@ -81,10 +81,10 @@ export default function HomePage() {
                     </div>
                 </div>
 
-                <div className="row-g-4">
+                <div className="row g-4">
                     {
                         filterProducts.map((item, index) => (
-                            <div className="col-sm-6 col-md-4 col-lg-3 mb-4" key={index}>
+                            <div className="col-6 col-lg-3 mb-4" key={index}>
                                 <div className="card h-100">
                                     <img src={item.Image} className="card-img-top" alt="" />
 
